@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #222;
+  padding: 10px;
+  color: white;
+  margin-bottom: 20px;
+  border: 0;
+}
+
+.m-t
+{
+  margin-top:20px;
+}
+
+.price 
+{
+  text-align: right;
+}
+
+.content {
+  padding: 1rem 1.5rem;
+}
+
+.header__logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+  margin-top: -10px;
+  vertical-align: middle;
+}
+
+.header__title {
+  display: inline;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
