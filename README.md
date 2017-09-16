@@ -12,7 +12,11 @@ The web app contains the following features:
   - React Router for SPA support
   - Localisation support
 
-## To run app ## 
+## Demo ##
+
+https://cc278.github.io/rock-tracks
+
+## To run app locally ## 
 
 - npm install
 - npm start

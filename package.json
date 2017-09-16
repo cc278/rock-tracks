@@ -2,10 +2,12 @@
   "name": "rock-tracks",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cc278.github.io/rock-tracks",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "bulma": "^0.5.2",
     "enzyme": "^2.9.1",
+    "gh-pages": "^1.0.0",
     "isomorphic-fetch": "^2.2.1",
     "moment": "^2.18.1",
     "react": "^15.6.1",
@@ -21,6 +23,8 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
