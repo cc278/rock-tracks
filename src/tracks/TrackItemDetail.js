@@ -24,7 +24,7 @@ class TrackItemDetail extends Component {
               </div>
               <div className="field-body">
                 <div className="field-input-label is-pull-left is-normal">
-                  <label className="label"><Currency value={this.props.price} currencycode={this.props.currencycode}></Currency></label>
+                  <label className="label price"><Currency value={this.props.price} currencycode={this.props.currencycode}></Currency></label>
                 </div>
               </div>
             </div>
@@ -34,7 +34,7 @@ class TrackItemDetail extends Component {
               </div>
               <div className="field-body">
                 <div className="field-input-label is-pull-left is-normal">
-                  <label className="label"><Duration milliseconds={ this.props.duration }></Duration></label>
+                  <label className="label duration"><Duration milliseconds={ this.props.duration }></Duration></label>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ class TrackItemDetail extends Component {
               </div>
               <div className="field-body">
                 <div className="field-input-label is-pull-left is-normal">
-                  <label className="label"><Date isodate={ this.props.releasedate } dateformat="DD-MM-YYYY"></Date></label>
+                  <label className="label release-date"><Date isodate={ this.props.releasedate } dateformat="DD-MM-YYYY"></Date></label>
                 </div>
               </div>
             </div>

@@ -28,8 +28,7 @@ https://cc278.github.io/rock-tracks
 
 ## Improvements
 
-* Better unit test coverage
-* Better tests for components
+* Better test coverage
 * Mock fetch
 * Decouple apple api from component containers
 * Better feedback - Loading spinner for async etc
@@ -37,5 +36,6 @@ https://cc278.github.io/rock-tracks
 * Better error handing for failed requests
 * Optimise Shuffle
 * Cache responses
+* Decouple router from components
 
 

@@ -15,7 +15,7 @@ class TrackItemSummary extends Component {
           </div>
           <div className="media-content">
             <p className="title is-4">{ this.props.title}</p>
-            <p className="subtitle is-6">{ this.props.artist }</p>
+            <p className="subtitle artist is-6">{ this.props.artist }</p>
             <p className="subtitle is-4 price is-info"><Currency currencycode={ this.props.currencycode } value={this.props.price}></Currency></p>
           </div>
           
@@ -32,14 +32,16 @@ TrackItemSummary.propTypes = {
   title: PropTypes.string.isRequired,
   artwork: PropTypes.string,
   artist: PropTypes.string,
-  price: PropTypes.number.isRequired
+  price: PropTypes.number.isRequired,
+  currencycode: PropTypes.string.isRequired
 }
 
 TrackItemSummary.defaultProps = {
   title: '',
   artwork: 'http://bulma.io/images/placeholders/480x480.png',
   artist: '',
-  price: 0
+  price: 0,
+  currencycode: 'GBP'
 }
 
 export default TrackItemSummary
