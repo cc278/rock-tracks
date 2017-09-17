@@ -35,7 +35,7 @@ https://cc278.github.io/rock-tracks
 * Better UI elements - Navigation breadcrumb, paging  etc
 * Better error handing for failed requests
 * Optimise Shuffle
-* Cache responses
+* Better caching strategy - either cache bust each call or implement intelligence
 * Decouple router from components
 
 
