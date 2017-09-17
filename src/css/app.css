@@ -33,6 +33,10 @@ body {
   border: 0;
 }
 
+.fetch__nodata {
+  text-align:center;
+}
+
 .header__title {
   display: inline;
 }
