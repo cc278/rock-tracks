@@ -9,7 +9,6 @@ body {
   padding: 10px;
   color: white;
   margin-bottom: 20px;
-  border: 0;
 }
 
 .m-t
@@ -31,6 +30,7 @@ body {
   height: 50px;
   margin-top: -10px;
   vertical-align: middle;
+  border: 0;
 }
 
 .header__title {
